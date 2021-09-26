@@ -1,0 +1,22 @@
+{
+  "name": "project9",
+  "version": "1.0.0",
+  "description": "This will be a movie info application",
+  "browserslist": [
+    "last 3 Chrome versions"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "producion": "parcel build src/index.html"
+  },
+  "author": "Amrit Kumar Das",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.6",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}

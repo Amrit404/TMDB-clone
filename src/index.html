@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Movie App</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav>
+      <ul class="logo-ul">
+        <li class="logo"></li>
+        <li>Movies</li>
+        <li>Tv Shows</li>
+        <li>people</li>
+      </ul>
+      <ul class="icons-ul">
+        <li class="notification-icon"><i class="far fa-bell"></i></li>
+        <div class="profile-icon">
+          <i class="fas fa-user-circle"></i>
+        </div>
+      </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <div class="container">
+      <div class="background">
+        <h1>Welcome</h1>
+        <h2>Millions of movies, Tv Shows and People</h2>
+        <form>
+          <input
+            type="text"
+            placeholder="Search for any movies, shows"
+            name="search"
+          />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- What's Popular -->
+    <div class="container">
+      <section class="popular">
+        <div class="popular-heading">
+          <h4>What's Popular</h4>
+          <div class="categories">
+            <span class="active">Streaming</span>
+            <span>On TV</span>
+            <span>For Rent</span>
+            <span>In Theaters</span>
+          </div>
+        </div>
+        <div class="popular-cards">
+          <div class="spinner hide"></div>
+          <!-- <div class="movie-card">
+            <div class="movie-image"></div>
+            <h4 class="movie-title">Flash</h4>
+            <h6>Sep 12, 2013</h6>
+            <div class="movie-rating">83%</div>
+          </div>
+          <div class="movie-card">
+            <div class="movie-image"></div>
+            <h4 class="movie-title">Flash</h4>
+            <h6>Sep 12, 2013</h6>
+            <div class="movie-rating">83%</div>
+          </div>
+          <div class="movie-card">
+            <div class="movie-image"></div>
+            <h4 class="movie-title">Flash</h4>
+            <h6>Sep 12, 2013</h6>
+            <div class="movie-rating">83%</div>
+          </div>
+          <div class="movie-card">
+            <div class="movie-image"></div>
+            <h4 class="movie-title">Flash</h4>
+            <h6>Sep 12, 2013</h6>
+            <div class="movie-rating">83%</div>
+          </div>
+          <div class="movie-card">
+            <div class="movie-image"></div>
+            <h4 class="movie-title">Flash</h4>
+            <h6>Sep 12, 2013</h6>
+            <div class="movie-rating">83%</div>
+          </div> -->
+        </div>
+      </section>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
